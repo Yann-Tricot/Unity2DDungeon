@@ -233,30 +233,39 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db21d8c2acda6414f862e075e90a4c37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bottomRooms:
+  mapSize: 10
+  firstGeneration: 0
+  firstBottomRooms:
+  - {fileID: 2643760495861522829, guid: 0d1864cf224a84d4e896fc5e28954673, type: 3}
+  - {fileID: 2708183590686028548, guid: f3ac18fad71c39e4b81951f1b860f8a8, type: 3}
+  - {fileID: 7174906755320121849, guid: 8bb78d8e0c5a8214e8e672e455788807, type: 3}
+  - {fileID: 1769910639872248905, guid: 2094387029fa6d549a16f69999207eb3, type: 3}
+  firstTopRooms:
+  - {fileID: 2643760495861522829, guid: 0d1864cf224a84d4e896fc5e28954673, type: 3}
+  - {fileID: 1769910639872248905, guid: 2094387029fa6d549a16f69999207eb3, type: 3}
+  - {fileID: 7996804253340519095, guid: bfe5315dff6fac743adb8faf9137d6e9, type: 3}
+  - {fileID: 84749812053469089, guid: febf579b4d9cb9e488d20ad8e834a777, type: 3}
+  firstLeftRooms:
+  - {fileID: 2643760495861522829, guid: 0d1864cf224a84d4e896fc5e28954673, type: 3}
+  - {fileID: 2708183590686028548, guid: f3ac18fad71c39e4b81951f1b860f8a8, type: 3}
+  - {fileID: 1353012303575715335, guid: fe85a5ebb83fd244580519ba3f06e89b, type: 3}
+  - {fileID: 7996804253340519095, guid: bfe5315dff6fac743adb8faf9137d6e9, type: 3}
+  firstRightRooms:
+  - {fileID: 2643760495861522829, guid: 0d1864cf224a84d4e896fc5e28954673, type: 3}
+  - {fileID: 7174906755320121849, guid: 8bb78d8e0c5a8214e8e672e455788807, type: 3}
+  - {fileID: 1353012303575715335, guid: fe85a5ebb83fd244580519ba3f06e89b, type: 3}
+  - {fileID: 84749812053469089, guid: febf579b4d9cb9e488d20ad8e834a777, type: 3}
+  lastBottomRooms:
   - {fileID: 9124187831133437749, guid: dac00d265c663c246a1b75a6ec7e1295, type: 3}
-  - {fileID: 2708183590686028548, guid: f3ac18fad71c39e4b81951f1b860f8a8, type: 3}
-  - {fileID: 7174906755320121849, guid: 8bb78d8e0c5a8214e8e672e455788807, type: 3}
-  - {fileID: 1769910639872248905, guid: 2094387029fa6d549a16f69999207eb3, type: 3}
-  topRooms:
+  lastTopRooms:
   - {fileID: 8976761764559169666, guid: 0152ddd1228b9c94c90477de36ac2aa3, type: 3}
-  - {fileID: 1769910639872248905, guid: 2094387029fa6d549a16f69999207eb3, type: 3}
-  - {fileID: 7996804253340519095, guid: bfe5315dff6fac743adb8faf9137d6e9, type: 3}
-  - {fileID: 84749812053469089, guid: febf579b4d9cb9e488d20ad8e834a777, type: 3}
-  leftRooms:
+  lastLeftRooms:
   - {fileID: 1842871691618657969, guid: 21dd3131c8bebc848b4292664b9294fe, type: 3}
-  - {fileID: 2708183590686028548, guid: f3ac18fad71c39e4b81951f1b860f8a8, type: 3}
-  - {fileID: 1353012303575715335, guid: fe85a5ebb83fd244580519ba3f06e89b, type: 3}
-  - {fileID: 7996804253340519095, guid: bfe5315dff6fac743adb8faf9137d6e9, type: 3}
-  rightRooms:
+  lastRightRooms:
   - {fileID: 81022321288785474, guid: dce29c92efd573841bdb2fbad2a4adbe, type: 3}
-  - {fileID: 84749812053469089, guid: febf579b4d9cb9e488d20ad8e834a777, type: 3}
-  - {fileID: 1353012303575715335, guid: fe85a5ebb83fd244580519ba3f06e89b, type: 3}
-  - {fileID: 7174906755320121849, guid: 8bb78d8e0c5a8214e8e672e455788807, type: 3}
   closedRooms: {fileID: 3180541856511199095, guid: 2e399a4aa2d884143bf1ba017fe639bc,
     type: 3}
   rooms: []
-  waitTime: 4
   boss: {fileID: 6479205664574022298, guid: fe9808d97a9435d42a47fa0b990d022d, type: 3}
 --- !u!4 &2078953244
 Transform:
